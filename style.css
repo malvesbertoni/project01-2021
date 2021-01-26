@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+/*font-family: 'Sansita Swashed', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;1,100&display=swap');
+/*font-family: 'Piazzolla', serif;*/
+
+* {
+    box-sizing: border-box;
+  }
+
+.page-header {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 36px;
+}
+
+.article-title {
+    font-style: italic;
+}
+
+.news-title {
+    display: block;
+    
+    margin: 50px 50px;
+    text-align: center;
+}
+
+.news-container {
+    font-family: 'Piazzolla', serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.second-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.article-container{
+    border: 3px;
+    border-color: black;
+}

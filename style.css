@@ -20,13 +20,13 @@
     font-style: italic;
     text-align: center;
 
-    margin: 35px 0;
+    margin: 20px 0;
 }
 
 .news-title {
     display: block;
     
-    margin: 50px 50px;
+    margin: 50px 0;
     text-align: center;
 }
 
@@ -47,6 +47,7 @@
 .second-row{
     display: flex;
     flex-direction: row;
+    align-items: stretch;
 }
 
 .article-container{
@@ -95,6 +96,16 @@
 
     padding-left: 0;
     margin: 0 0;
+}
+
+.listed-content a {
+    text-decoration: none;
+    color: #555;
+}
+
+.listed-content a:hover {
+    text-decoration: underline;
+    color: #000;
 }
 
 .li-item1{
